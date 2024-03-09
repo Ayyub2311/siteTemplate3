@@ -1,0 +1,186 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+  transition: all 0.5s;
+}
+
+.nav a {
+  text-decoration: none;
+  color: gray;
+  font-weight: 900;
+}
+
+.nav a:hover {
+  color: black;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.info-text {
+  font-weight: 400;
+}
+
+.info-lang {
+  transform: rotate(270deg);
+}
+
+.denis {
+  width: 100%;
+  height: 350px;
+  /* margin-bottom: 200px; */
+}
+
+.denis-image{
+  max-width: 1000px;
+}
+
+.about {
+  text-align: center;
+  width: 400px;
+  margin: 100px auto;
+}
+
+.about-text {
+  margin-top: 20px;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    
+}
+
+.logo-img{
+  width: 80px;
+    height: 80px;
+}
+
+.logo-item{
+  text-align: center;
+  color: #828282;
+font-size: 14px;
+font-weight: 400;
+word-wrap: break-word
+}
+
+.line{
+    width: 150px;
+    height: 25px;
+    background-color: black;
+}
+
+.skills-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-title, .skills-text{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.skills-box-item{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.skills-box-item p{
+    margin: 20px 0;
+}
+
+.skills{
+    margin-bottom: 80px;
+}
+
+.portfolio{
+display: flex;
+flex-direction: column;
+}
+
+.portfolio a{
+  color: black;
+}
+
+.portfolio-icon{
+  margin: 0 auto;
+}
+
+.portfolio-item{
+  margin: 0 auto;
+  /* text-align: center; */
+}
+
+.portfolio-text{
+  margin: 0 auto;
+  /* text-align: center; */
+}
+
+.contacts {
+  margin: 60px auto 0;
+  text-align: center;
+}
+
+button {
+  height: 35px;
+  width: 150px;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+  margin: 30px auto;
+  transition: all .1s;
+}
+
+button:focus{
+  background-color: red;
+}
+
+button:hover{
+  transform: translate(0px, 10px);
+}
+
+.contacts p {
+  margin-top: 30px;
+}
+
+.contacts-items {
+  margin: 60px auto 40px;
+  justify-content: space-around;
+  width: 350px;
+  display: flex;
+}
+
+.contacts-icon {
+  transition: all .3s;
+  width: 35px;
+}
+
+.icon:hover{
+  transform: scale(1.1);
+}
+
+.contacts-note {
+  color: gray;
+  font-size: 13px;
+}
